@@ -1,0 +1,18 @@
+{
+  "performanceStats": {
+    "globalRank": {
+      "currentRank": 128,
+      "totalUsers": 12000
+    },
+    "totalXP": {
+      "currentXP": 4520,
+      "weeklyXP": 120
+    },
+    "accuracy": {
+      "currentAccuracy": 78
+    },
+    "accuracyInsight": {
+      "increasePercentage": 14
+    }
+  }
+}

@@ -22,36 +22,35 @@
     }
   },
 
-  "resumeLearning": {
-    "title": "Resume Learning",
-    "courseName": "Advanced Diagnostic and Interventional Learning",
-    "description": "Continue where you left off in advanced clinical diagnosis and interventions.",
-    "actionText": "Resume Now"
+{
+  resume: {
+    title: "Resume Learning",
+    description: "Advanced Diagnostic and Interventional Learning",
+    actionText: "Resume Now"
   },
-
-  "aiInsights": {
-    "title": "AI Insights",
-    "message": "Your accuracy has improved by 14% over the last 7 days."
+  insights: {
+    title: "AI Insights",
+    description: "Your accuracy has improved by 14%"
   },
+  practice: {
+    title: "Practice with a Curated Set",
+    description: "Comprehensive Clinical Management"
+  }
+}
 
-  "practiceSet": {
-    "title": "Practice with a Curated Set",
-    "description": "Comprehensive Clinical Management",
-    "actionText": "Start Practice"
-  },
+  {
+  "loading": false,
+  "data": {
+    "todayTarget": "Autonomic Nervous System – Adrenergic & Cholinergic Drugs",
+    "progress": 65,
+    "tasks": [
+      "Revise mechanisms of action",
+      "Solve 25 MCQs",
+      "Review weak areas"
+    ]
+  }
+}
 
-  "todaysFocus": [
-    {
-      "type": "scheduled",
-      "title": "Autonomic Nervous System Pharmacology – Adrenergic and Cholinergic Drugs",
-      "cta": "Start Now"
-    },
-    {
-      "type": "topicOfTheDay",
-      "title": "Cell Injury and Adaptation – Mechanisms, Morphology, and Outcomes",
-      "cta": "View NoteByte"
-    }
-  ],
 
   "challenges": {
     "message": "Arjun0609 just threw you a challenge in 2 subjects: Pharmacology",

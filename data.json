@@ -1,4 +1,10 @@
 {
+  "user": {
+    "name": "Karthik"
+  },
+
+  "streak": [1, 1, 1, 1, 1, 0, 0],
+
   "performanceStats": {
     "globalRank": {
       "currentRank": 168,
@@ -14,5 +20,46 @@
     "accuracyInsight": {
       "increasePercentage": 84
     }
+  },
+
+  "resumeLearning": {
+    "title": "Resume Learning",
+    "courseName": "Advanced Diagnostic and Interventional Learning",
+    "description": "Continue where you left off in advanced clinical diagnosis and interventions.",
+    "actionText": "Resume Now"
+  },
+
+  "aiInsights": {
+    "title": "AI Insights",
+    "message": "Your accuracy has improved by 14% over the last 7 days."
+  },
+
+  "practiceSet": {
+    "title": "Practice with a Curated Set",
+    "description": "Comprehensive Clinical Management",
+    "actionText": "Start Practice"
+  },
+
+  "todaysFocus": [
+    {
+      "type": "scheduled",
+      "title": "Autonomic Nervous System Pharmacology – Adrenergic and Cholinergic Drugs",
+      "cta": "Start Now"
+    },
+    {
+      "type": "topicOfTheDay",
+      "title": "Cell Injury and Adaptation – Mechanisms, Morphology, and Outcomes",
+      "cta": "View NoteByte"
+    }
+  ],
+
+  "challenges": {
+    "message": "Arjun0609 just threw you a challenge in 2 subjects: Pharmacology",
+    "actionText": "Accept Challenge"
+  },
+
+  "upgradePrompt": {
+    "message": "See smarter insights, elite question banks, and progress tools — go Max for more power.",
+    "actionText": "Compare Plans"
   }
 }

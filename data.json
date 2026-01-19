@@ -1,46 +1,47 @@
 {
- {
-  "name": "Karthik",
-  "avatar": "https://www.vecteezy.com/vector-art/46409821-avatar-profile-icon-in-flat-style-male-user-profile-illustration-on-isolated-background-man-profile-sign-business-concept",
-  "streak": [1, 1, 1, 1, 1, 0, 0]
-}
+  "profile": {
+    "name": "Karthik",
+    "avatar": "https://i.pravatar.cc/150?img=12",
+    "streak": [1, 1, 1, 1, 1, 0, 0]
+  },
 
-  "performanceStats": {
-    "globalRank": {
-      "currentRank": 168,
-      "totalUsers": 12000
+  "stats": [
+    {
+      "id": "rank",
+      "title": "Global Rank",
+      "value": "168 / 12000"
     },
-    "totalXP": {
-      "currentXP": 4320,
-      "weeklyXP": 120
+    {
+      "id": "xp",
+      "title": "Total XP",
+      "value": "4320",
+      "sub": "+120 this week"
     },
-    "accuracy": {
-      "currentAccuracy": 88
+    {
+      "id": "accuracy",
+      "title": "Accuracy",
+      "value": "88%",
+      "sub": "+14%"
+    }
+  ],
+
+  "study": {
+    "resume": {
+      "title": "Resume Learning",
+      "description": "Advanced Diagnostic and Interventional Learning",
+      "actionText": "Resume Now"
     },
-    "accuracyInsight": {
-      "increasePercentage": 84
+    "insights": {
+      "title": "AI Insights",
+      "description": "Your accuracy has improved by 14%"
+    },
+    "practice": {
+      "title": "Practice with a Curated Set",
+      "description": "Comprehensive Clinical Management"
     }
   },
 
-{
-  resume: {
-    title: "Resume Learning",
-    description: "Advanced Diagnostic and Interventional Learning",
-    actionText: "Resume Now"
-  },
-  insights: {
-    title: "AI Insights",
-    description: "Your accuracy has improved by 14%"
-  },
-  practice: {
-    title: "Practice with a Curated Set",
-    description: "Comprehensive Clinical Management"
-  }
-}
-
-  {
-  "loading": false,
-  "data": {
+  "focus": {
     "todayTarget": "Autonomic Nervous System – Adrenergic & Cholinergic Drugs",
     "progress": 65,
     "tasks": [
@@ -48,12 +49,10 @@
       "Solve 25 MCQs",
       "Review weak areas"
     ]
-  }
-}
-
+  },
 
   "challenges": {
-    "message": "Arjun0609 just threw you a challenge in 2 subjects: Pharmacology",
+    "message": "Arjun0609 just threw you a challenge in Pharmacology",
     "actionText": "Accept Challenge"
   },
 

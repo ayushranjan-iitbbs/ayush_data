@@ -5,26 +5,30 @@
     "streak": [1, 1, 1, 1, 1, 0, 0]
   },
 
-  "stats": [
-    {
-      "id": "rank",
-      "title": "Global Rank",
-      "value": "168 / 12000"
-    },
-    {
-      "id": "xp",
-      "title": "Total XP",
-      "value": "4320",
-      "sub": "+120 this week"
-    },
-    {
-      "id": "accuracy",
-      "title": "Accuracy",
-      "value": "88%",
-      "sub": "+14%"
-    }
-  ],
-
+ "stats": [
+  {
+    "id": "rank",
+    "title": "Global Rank",
+    "value": "168 / 12000",
+    "subtitle": "You're in top 10%",
+    "emoji": "🌍"
+  },
+  {
+    "id": "xp",
+    "title": "Total XP",
+    "value": "4320",
+    "subtitle": "+120 this week",
+    "emoji": "⚡"
+  },
+  {
+    "id": "accuracy",
+    "title": "Accuracy",
+    "value": "88%",
+    "subtitle": "+14%",
+    "emoji": "🎯"
+  }
+],
+  
   "study": {
     "resume": {
       "title": "Resume Learning",

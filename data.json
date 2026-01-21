@@ -33,25 +33,28 @@
   "study": {
     "resume": {
       "title": "Resume Learning",
-      "description": "Advanced Diagnostic and Interventional Technicians in Gastroenterology and Hepatobiliary",
-      "actionText": "Resume Now"
+      "description": "Advanced Diagnostic and Interventional Techniques in Gastrointestinal and Hepatobiliary",
+      "actionText": "Resume Now",
+      "icon": "resume-icon" // Just the filename without extension
     },
     "insights": {
       "title": "AI Insights",
-      "description": "Your accuracy has improved by 14%"
+      "description": "Your accuracy has improved by 14%",
+      "icon": "ai-insights-icon"
     },
     "practice": {
       "title": "Practice with a Curated Set",
       "description": "Comprehensive Clinical Management",
-      "actionText": "Start Practice"
+      "actionText": "Start Practice",
+      "icon": "practice-icon"
     },
     "progress": {
       "resume": 65,
-      "insights": 88,
-      "practice": 42
+      "insights": null,
+      "practice": null
     }
   }
-},
+}
 
   "focus": {
     "todayTarget": "Autonomic Nervous System – Adrenergic & Cholinergic Drugs",

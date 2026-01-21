@@ -4,6 +4,7 @@
     "avatar": "https://i.pravatar.cc/150?img=12",
     "streak": [1, 1, 1, 1, 1, 0, 0]
   },
+
   "stats": [
     {
       "id": "rank",
@@ -27,6 +28,7 @@
       "emoji": "🎯"
     }
   ],
+
   "study": {
     "resume": {
       "title": "Resume Learning",
@@ -51,7 +53,7 @@
       "practice": null
     }
   },
- {
+
   "focus": {
     "badge": "Today's scheduled topics",
     "title": "Autonomic Nervous System Pharmacology – Adrenergic and Cholinergic Drugs",
@@ -64,14 +66,15 @@
       "actionText": "View Notebook"
     }
   },
+
   "challenges": {
     "title": "Topic of the day",
     "message": "Revise 20 MCQs from today's topic",
     "actionText": "Accept Challenge"
   },
+
   "upgradePrompt": {
     "message": "Unlock detailed analytics and daily mentoring",
     "actionText": "Compare Plans"
   }
 }
-

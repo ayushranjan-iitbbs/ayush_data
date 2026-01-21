@@ -51,17 +51,27 @@
       "practice": null
     }
   },
+ {
   "focus": {
-    "todayTarget": "Autonomic Nervous System – Adrenergic & Cholinergic Drugs",
-    "progress": 65,
-    "tasks": ["Revise mechanisms of action", "Solve 25 MCQs", "Review weak areas"]
+    "badge": "Today's scheduled topics",
+    "title": "Autonomic Nervous System Pharmacology – Adrenergic and Cholinergic Drugs",
+    "primaryAction": {
+      "text": "Start Now",
+      "type": "start"
+    },
+    "notebook": {
+      "title": "Cell Injury and Adaptation – Mechanisms, Morphology, and Outcomes",
+      "actionText": "View Notebook"
+    }
   },
   "challenges": {
-    "message": "Arjun0609 just threw you a challenge in Pharmacology",
+    "title": "Topic of the day",
+    "message": "Revise 20 MCQs from today's topic",
     "actionText": "Accept Challenge"
   },
   "upgradePrompt": {
-    "message": "See smarter insights, elite question banks, and progress tools — go Max for more power.",
+    "message": "Unlock detailed analytics and daily mentoring",
     "actionText": "Compare Plans"
   }
 }
+

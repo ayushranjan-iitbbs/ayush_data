@@ -29,10 +29,11 @@
   }
 ],
   
+{
   "study": {
     "resume": {
       "title": "Resume Learning",
-      "description": "Advanced Diagnostic and Interventional Learning",
+      "description": "Advanced Diagnostic and Interventional Technicians in Gastroenterology and Hepatobiliary",
       "actionText": "Resume Now"
     },
     "insights": {
@@ -41,9 +42,16 @@
     },
     "practice": {
       "title": "Practice with a Curated Set",
-      "description": "Comprehensive Clinical Management"
+      "description": "Comprehensive Clinical Management",
+      "actionText": "Start Practice"
+    },
+    "progress": {
+      "resume": 65,
+      "insights": 88,
+      "practice": 42
     }
-  },
+  }
+},
 
   "focus": {
     "todayTarget": "Autonomic Nervous System – Adrenergic & Cholinergic Drugs",

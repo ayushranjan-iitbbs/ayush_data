@@ -35,7 +35,7 @@
       "title": "Resume Learning",
       "description": "Advanced Diagnostic and Interventional Techniques in Gastrointestinal and Hepatobiliary",
       "actionText": "Resume Now",
-      "icon": "resume-icon" // Just the filename without extension
+      "icon": "resume-icon" 
     },
     "insights": {
       "title": "AI Insights",

@@ -4,38 +4,35 @@
     "avatar": "https://i.pravatar.cc/150?img=12",
     "streak": [1, 1, 1, 1, 1, 0, 0]
   },
-
- "stats": [
-  {
-    "id": "rank",
-    "title": "Global Rank",
-    "value": "168 / 12000",
-    "subtitle": "You're in top 10%",
-    "emoji": "🌍"
-  },
-  {
-    "id": "xp",
-    "title": "Total XP",
-    "value": "4320",
-    "subtitle": "+120 this week",
-    "emoji": "⚡"
-  },
-  {
-    "id": "accuracy",
-    "title": "Accuracy",
-    "value": "88%",
-    "subtitle": "+14%",
-    "emoji": "🎯"
-  }
-],
-  
-{
+  "stats": [
+    {
+      "id": "rank",
+      "title": "Global Rank",
+      "value": "78% (10%↑)",
+      "subtitle": "You're in the top 1%!",
+      "emoji": "🌍"
+    },
+    {
+      "id": "xp",
+      "title": "Total XP",
+      "value": "4,520 (120↑)",
+      "subtitle": "Keep pushing for 5K!",
+      "emoji": "⚡"
+    },
+    {
+      "id": "accuracy",
+      "title": "Accuracy Rate",
+      "value": "78% (10%↑)",
+      "subtitle": "You're improving!",
+      "emoji": "🎯"
+    }
+  ],
   "study": {
     "resume": {
       "title": "Resume Learning",
       "description": "Advanced Diagnostic and Interventional Techniques in Gastrointestinal and Hepatobiliary",
       "actionText": "Resume Now",
-      "icon": "resume-icon" 
+      "icon": "resume-icon"
     },
     "insights": {
       "title": "AI Insights",
@@ -53,9 +50,7 @@
       "insights": null,
       "practice": null
     }
-  }
-}
-
+  },
   "focus": {
     "todayTarget": "Autonomic Nervous System – Adrenergic & Cholinergic Drugs",
     "progress": 65,
@@ -65,12 +60,10 @@
       "Review weak areas"
     ]
   },
-
   "challenges": {
     "message": "Arjun0609 just threw you a challenge in Pharmacology",
     "actionText": "Accept Challenge"
   },
-
   "upgradePrompt": {
     "message": "See smarter insights, elite question banks, and progress tools — go Max for more power.",
     "actionText": "Compare Plans"

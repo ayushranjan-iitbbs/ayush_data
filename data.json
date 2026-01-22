@@ -57,7 +57,7 @@
   "focus": {
     "badge": "Today's scheduled topics",
     "title": "Autonomic Nervous System Pharmacology – Adrenergic and Cholinergic Drugs",
-    "image": "https://your-cdn.com/images/focus-pharma.jpg",
+    "image": "https://indoreinstitute.com/blog-post/what-is-pharma-vision-2020-a-detailed-insight/",
     "primaryAction": {
       "text": "Start Now",
       "type": "start"
@@ -65,7 +65,7 @@
     "notebook": {
       "title": "Cell Injury and Adaptation – Mechanisms, Morphology, and Outcomes",
       "actionText": "View Notebook",
-      "image": "https://your-cdn.com/images/notebook.jpg"
+      "image": "https://indoreinstitute.com/blog-post/what-is-pharma-vision-2020-a-detailed-insight/"
     }
   },
 

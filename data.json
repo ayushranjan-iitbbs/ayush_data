@@ -75,9 +75,11 @@
       "message": "Arjun0609 just threw you a challenge in 2 subjects Pharmacology - are you in?",
       "actionText": "Accept Challenge"
     }
+  ]
+  ,
   "upgradePrompt": {
     "message": "See smarter insights, elite question banks, and progress tools—go Max for more power.",
     "actionText": "Compare Plans"
   }
-  ],
+
 }

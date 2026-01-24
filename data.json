@@ -59,13 +59,17 @@
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqhI0LxLsb-ll__oEmvfGyClxRSAhvvz4e9w&s",
       "badge": "Today's scheduled topics",
       "title": "Autonomic Nervous System Pharmacology – Adrenergic and Cholinergic Drugs",
-      "primaryAction": { "text": "Start Now" }
+      "primaryAction": {
+        "text": "Start Now"
+      }
     },
     "topicOfDay": {
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjoZX3EIOJ6nI6GLijBltnCKLeXOqdDCV6Mw&s",
       "badge": "Topic of the day",
       "title": "Cell Injury and Adaptation – Mechanisms, Morphology, and Outcomes",
-      "primaryAction": { "text": "View NoteByte" }
+      "primaryAction": {
+        "text": "View NoteByte"
+      }
     }
   },
 
@@ -76,9 +80,9 @@
       "actionText": "Accept Challenge"
     },
     {
-    "id":2,
-    "message": "See smarter insights, elite question banks, and progress tools—go Max for more power.",
-    "actionText": "Compare Plans"
-  }
-  ],
+      "id": 2,
+      "message": "See smarter insights, elite question banks, and progress tools—go Max for more power.",
+      "actionText": "Compare Plans"
+    }
+  ]
 }

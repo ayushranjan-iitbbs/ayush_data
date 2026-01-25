@@ -5,82 +5,169 @@
     "isToday": true,
     "topics": [
       {
-        "id": 1,
-        "title": "Structural organization in animals with emphasis on morphology, anatomy and functions of different systems",
+        "id": 101,
+        "title": "Autonomic Nervous System Pharmacology",
         "color": "#F472B6",
-        "progress": 85,
-        "duration": "7 days",
-        "level": "Needs practice",
-        "accuracy": 56
+        "completion": 85,
+        "daysToComplete": "7 days",
+        "status": "Needs practice",
+        "accuracy": "56%"
       },
       {
-        "id": 2,
+        "id": 102,
         "title": "Cell Injury and Adaptation – Mechanisms, Morphology, and Outcomes",
         "color": "#A3E635",
-        "progress": 30,
-        "duration": "5 days",
-        "level": "Average",
-        "accuracy": 62
+        "completion": 40,
+        "daysToComplete": "5 days",
+        "status": "Improving",
+        "accuracy": "72%"
+      },
+      {
+        "id": 103,
+        "title": "Inflammation – Acute and Chronic",
+        "color": "#60A5FA",
+        "completion": 10,
+        "daysToComplete": "12 days",
+        "status": "Not started",
+        "accuracy": "0%"
+      },
+      {
+        "id": 104,
+        "title": "Healing and Repair",
+        "color": "#FBBF24",
+        "completion": 0,
+        "daysToComplete": "4 days",
+        "status": "Queued",
+        "accuracy": "0%"
       }
     ]
   },
   {
     "day": "Tomorrow",
     "date": "2026-10-18",
+    "isToday": false,
     "topics": [
       {
-        "id": 1,
+        "id": 201,
         "title": "Autonomic Nervous System Pharmacology",
         "color": "#22D3EE",
-        "progress": 40,
-        "duration": "6 days",
-        "level": "Needs practice",
-        "accuracy": 48
+        "completion": 65,
+        "daysToComplete": "3 days",
+        "status": "Needs practice",
+        "accuracy": "48%"
+      },
+      {
+        "id": 202,
+        "title": "Cell Injury and Adaptation – Mechanisms, Morphology, and Outcomes",
+        "color": "#FDBA74",
+        "completion": 90,
+        "daysToComplete": "2 days",
+        "status": "Mastered",
+        "accuracy": "94%"
+      },
+      {
+        "id": 203,
+        "title": "Oxidative Stress and Free Radicals",
+        "color": "#A78BFA",
+        "completion": 25,
+        "daysToComplete": "8 days",
+        "status": "Needs practice",
+        "accuracy": "30%"
+      },
+      {
+        "id": 204,
+        "title": "Apoptosis and Necrosis",
+        "color": "#FCA5A5",
+        "completion": 50,
+        "daysToComplete": "6 days",
+        "status": "Improving",
+        "accuracy": "61%"
       }
     ]
   },
   {
     "day": "Wed",
     "date": "2026-10-19",
+    "isToday": false,
     "topics": [
       {
-        "id": 1,
+        "id": 301,
+        "title": "Autonomic Nervous System Pharmacology",
+        "color": "#F472B6",
+        "completion": 15,
+        "daysToComplete": "10 days",
+        "status": "Needs practice",
+        "accuracy": "22%"
+      },
+      {
+        "id": 302,
+        "title": "Cell Injury and Adaptation – Mechanisms, Morphology, and Outcomes",
+        "color": "#22D3EE",
+        "completion": 75,
+        "daysToComplete": "5 days",
+        "status": "Improving",
+        "accuracy": "80%"
+      },
+      {
+        "id": 303,
         "title": "Hemodynamic Disorders",
         "color": "#34D399",
-        "progress": 55,
-        "duration": "4 days",
-        "level": "Average",
-        "accuracy": 64
+        "completion": 0,
+        "daysToComplete": "14 days",
+        "status": "Not started",
+        "accuracy": "0%"
+      },
+      {
+        "id": 304,
+        "title": "Shock – Types and Pathogenesis",
+        "color": "#FCD34D",
+        "completion": 33,
+        "daysToComplete": "7 days",
+        "status": "Needs practice",
+        "accuracy": "45%"
       }
     ]
   },
   {
     "day": "Thu",
     "date": "2026-10-20",
+    "isToday": false,
     "topics": [
       {
-        "id": 1,
+        "id": 401,
+        "title": "Structural organization in animals with emphasis on morphology, anatomy and functions",
+        "color": "#A3E635",
+        "completion": 85,
+        "daysToComplete": "7 days",
+        "status": "Needs practice",
+        "accuracy": "56%"
+      },
+      {
+        "id": 402,
+        "title": "Cell Injury and Adaptation – Mechanisms, Morphology, and Outcomes",
+        "color": "#A3E635",
+        "completion": 60,
+        "daysToComplete": "3 days",
+        "status": "Improving",
+        "accuracy": "68%"
+      },
+      {
+        "id": 403,
         "title": "Immunopathology Basics",
         "color": "#60A5FA",
-        "progress": 20,
-        "duration": "5 days",
-        "level": "Needs practice",
-        "accuracy": 39
-      }
-    ]
-  },
-  {
-    "day": "Fri",
-    "date": "2026-10-21",
-    "topics": [
+        "completion": 10,
+        "daysToComplete": "9 days",
+        "status": "Not started",
+        "accuracy": "15%"
+      },
       {
-        "id": 1,
-        "title": "Neoplasia – Introduction",
-        "color": "#34D399",
-        "progress": 70,
-        "duration": "3 days",
-        "level": "Good",
-        "accuracy": 78
+        "id": 404,
+        "title": "Hypersensitivity Reactions",
+        "color": "#F87171",
+        "completion": 0,
+        "daysToComplete": "5 days",
+        "status": "Queued",
+        "accuracy": "0%"
       }
     ]
   }

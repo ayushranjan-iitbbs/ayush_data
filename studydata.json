@@ -1,142 +1,185 @@
-const initialState = {
-  weekPlan: [
-    {
-      day: "Today",
-      date: "2026-10-17",
-      topics: [
-        {
-          id: 1,
-          title: "Autonomic Nervous System Pharmacology",
-          color: "#F472B6",
-        },
-        {
-          id: 2,
-          title:
-            "Cell Injury and Adaptation – Mechanisms, Morphology, and Outcomes",
-          color: "#A3E635",
-        },
-        {
-          id: 3,
-          title: "Inflammation – Acute and Chronic",
-          color: "#60A5FA",
-        },
-        {
-          id: 4,
-          title: "Healing and Repair",
-          color: "#FBBF24",
-        },
-      ],
-    },
-    {
-      day: "Tomorrow",
-      date: "2026-10-18",
-      topics: [
-        {
-          id: 1,
-          title: "Autonomic Nervous System Pharmacology",
-          color: "#22D3EE",
-        },
-        {
-          id: 2,
-          title:
-            "Cell Injury and Adaptation – Mechanisms, Morphology, and Outcomes",
-          color: "#FDBA74",
-        },
-        {
-          id: 3,
-          title: "Oxidative Stress and Free Radicals",
-          color: "#A78BFA",
-        },
-        {
-          id: 4,
-          title: "Apoptosis and Necrosis",
-          color: "#FCA5A5",
-        },
-      ],
-    },
-    {
-      day: "Wed",
-      date: "2026-10-19",
-      topics: [
-        {
-          id: 1,
-          title: "Autonomic Nervous System Pharmacology",
-          color: "#F472B6",
-        },
-        {
-          id: 2,
-          title:
-            "Cell Injury and Adaptation – Mechanisms, Morphology, and Outcomes",
-          color: "#22D3EE",
-        },
-        {
-          id: 3,
-          title: "Hemodynamic Disorders",
-          color: "#34D399",
-        },
-        {
-          id: 4,
-          title: "Shock – Types and Pathogenesis",
-          color: "#FCD34D",
-        },
-      ],
-    },
-    {
-      day: "Thu",
-      date: "2026-10-20",
-      topics: [
-        {
-          id: 1,
-          title: "Autonomic Nervous System Pharmacology",
-          color: "#FDBA74",
-        },
-        {
-          id: 2,
-          title:
-            "Cell Injury and Adaptation – Mechanisms, Morphology, and Outcomes",
-          color: "#A3E635",
-        },
-        {
-          id: 3,
-          title: "Immunopathology Basics",
-          color: "#60A5FA",
-        },
-        {
-          id: 4,
-          title: "Hypersensitivity Reactions",
-          color: "#F87171",
-        },
-      ],
-    },
-    {
-      day: "Fri",
-      date: "2026-10-21",
-      topics: [
-        { id: 1, title: "Neoplasia – Introduction", color: "#34D399" },
-        { id: 2, title: "Oncogenes and Tumor Suppressors", color: "#818CF8" },
-        { id: 3, title: "Carcinogenesis", color: "#FBBF24" },
-        { id: 4, title: "Tumor Immunology", color: "#FB7185" },
-      ],
-    },
-    {
-      day: "Sat",
-      date: "2026-10-22",
-      topics: [
-        { id: 1, title: "Hematopoietic Disorders", color: "#22D3EE" },
-        { id: 2, title: "Anemias", color: "#A3E635" },
-        { id: 3, title: "Leukemias", color: "#FCA5A5" },
-        { id: 4, title: "Lymphomas", color: "#FCD34D" },
-      ],
-    },
-    {
-      day: "Sun",
-      date: "2026-10-23",
-      topics: [
-        { id: 1, title: "Quick Revision – CNS", color: "#818CF8" },
-        { id: 2, title: "Quick Revision – CVS", color: "#34D399" },
-        { id: 3, title: "Weekly Mock Test", color: "#FBBF24" },
-        { id: 4, title: "Analysis & Weak Areas", color: "#FB7185" },
-      ],
-    },
-  ],
-};
+[
+  {
+    "day": "Today",
+    "date": "2026-10-17",
+    "isToday": true,
+    "topics": [
+      {
+        "id": 1,
+        "title": "Autonomic Nervous System Pharmacology",
+        "color": "#F472B6"
+      },
+      {
+        "id": 2,
+        "title": "Cell Injury and Adaptation – Mechanisms, Morphology, and Outcomes",
+        "color": "#A3E635"
+      },
+      {
+        "id": 3,
+        "title": "Inflammation – Acute and Chronic",
+        "color": "#60A5FA"
+      },
+      {
+        "id": 4,
+        "title": "Healing and Repair",
+        "color": "#FBBF24"
+      }
+    ]
+  },
+  {
+    "day": "Tomorrow",
+    "date": "2026-10-18",
+    "topics": [
+      {
+        "id": 1,
+        "title": "Autonomic Nervous System Pharmacology",
+        "color": "#22D3EE"
+      },
+      {
+        "id": 2,
+        "title": "Cell Injury and Adaptation – Mechanisms, Morphology, and Outcomes",
+        "color": "#FDBA74"
+      },
+      {
+        "id": 3,
+        "title": "Oxidative Stress and Free Radicals",
+        "color": "#A78BFA"
+      },
+      {
+        "id": 4,
+        "title": "Apoptosis and Necrosis",
+        "color": "#FCA5A5"
+      }
+    ]
+  },
+  {
+    "day": "Wed",
+    "date": "2026-10-19",
+    "topics": [
+      {
+        "id": 1,
+        "title": "Autonomic Nervous System Pharmacology",
+        "color": "#F472B6"
+      },
+      {
+        "id": 2,
+        "title": "Cell Injury and Adaptation – Mechanisms, Morphology, and Outcomes",
+        "color": "#22D3EE"
+      },
+      {
+        "id": 3,
+        "title": "Hemodynamic Disorders",
+        "color": "#34D399"
+      },
+      {
+        "id": 4,
+        "title": "Shock – Types and Pathogenesis",
+        "color": "#FCD34D"
+      }
+    ]
+  },
+  {
+    "day": "Thu",
+    "date": "2026-10-20",
+    "topics": [
+      {
+        "id": 1,
+        "title": "Autonomic Nervous System Pharmacology",
+        "color": "#FDBA74"
+      },
+      {
+        "id": 2,
+        "title": "Cell Injury and Adaptation – Mechanisms, Morphology, and Outcomes",
+        "color": "#A3E635"
+      },
+      {
+        "id": 3,
+        "title": "Immunopathology Basics",
+        "color": "#60A5FA"
+      },
+      {
+        "id": 4,
+        "title": "Hypersensitivity Reactions",
+        "color": "#F87171"
+      }
+    ]
+  },
+  {
+    "day": "Fri",
+    "date": "2026-10-21",
+    "topics": [
+      {
+        "id": 1,
+        "title": "Neoplasia – Introduction",
+        "color": "#34D399"
+      },
+      {
+        "id": 2,
+        "title": "Oncogenes and Tumor Suppressors",
+        "color": "#818CF8"
+      },
+      {
+        "id": 3,
+        "title": "Carcinogenesis",
+        "color": "#FBBF24"
+      },
+      {
+        "id": 4,
+        "title": "Tumor Immunology",
+        "color": "#FB7185"
+      }
+    ]
+  },
+  {
+    "day": "Sat",
+    "date": "2026-10-22",
+    "topics": [
+      {
+        "id": 1,
+        "title": "Hematopoietic Disorders",
+        "color": "#22D3EE"
+      },
+      {
+        "id": 2,
+        "title": "Anemias",
+        "color": "#A3E635"
+      },
+      {
+        "id": 3,
+        "title": "Leukemias",
+        "color": "#FCA5A5"
+      },
+      {
+        "id": 4,
+        "title": "Lymphomas",
+        "color": "#FCD34D"
+      }
+    ]
+  },
+  {
+    "day": "Sun",
+    "date": "2026-10-23",
+    "topics": [
+      {
+        "id": 1,
+        "title": "Quick Revision – CNS",
+        "color": "#818CF8"
+      },
+      {
+        "id": 2,
+        "title": "Quick Revision – CVS",
+        "color": "#34D399"
+      },
+      {
+        "id": 3,
+        "title": "Weekly Mock Test",
+        "color": "#FBBF24"
+      },
+      {
+        "id": 4,
+        "title": "Analysis & Weak Areas",
+        "color": "#FB7185"
+      }
+    ]
+  }
+]
